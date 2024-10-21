@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Python
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div class="div_img">
+			<img src="images/python-logo.png">
+		</div>
+		<div class="menu">
+			<a href="index.html">Bosh sahifa</a>
+			<a href="mavzu1.html">Mavzular</a>
+			<a href="masalalar1.html">Masalalar</a>
+			<a href="yuklamalar.html">Yuklamalar</a>
+			<a href="muallif.html">Muallif</a>
+		</div>
+	</div>
+	<div id="content">
+		<div class="menu">
+			<div><a href="mavzu1.html">1 - Mavzu</a></div>
+			<div><a href="mavzu2.html">2 - Mavzu</a></div>
+			<div><a href="mavzu3.html">3 - Mavzu</a></div>
+			<div><a href="mavzu4.html">4 - Mavzu</a></div>
+			<div><a href="mavzu5.html">5 - Mavzu</a></div>
+			<div><a href="mavzu6.html">6 - Mavzu</a></div>
+			<div><a href="mavzu7.html">7 - Mavzu</a></div>
+			<div><a href="mavzu8.html">8 - Mavzu</a></div>
+			<div><a href="mavzu9.html">9 - Mavzu</a></div>
+			<div><a href="mavzu10.html">10 - Mavzu</a></div>
+			<div><a href="mavzu11.html">11 - Mavzu</a></div>
+			<div><a href="mavzu12.html">12 - Mavzu</a></div>
+		</div>
+		<div class="sahifa">
+			<h1>Funsiya</h1>
+	<h2>Funksiyani aniqlash</h2>
+	<p>Def kalit so`zi funksiyani aniqlashni taqdim etadi. Def so`zidan so`ng funksiya nomi va qavs ichida formal parametrlar ro`yxati ko`rsatiladi. Funksiya tanasini hosil qiluvchi instruksiyalar keyingi qatordan boshlab bo`sh joy(отступь) bilan yoziladi. Misol sifatida Fibonachi sonlar ro`yxatini chiqaradigan funksiyani yaratishimiz mumkin:</p>
+	<img src="images/5.1.png">
+	<p>Yana bir misol sifatida kiritilgan sonning raqamlar yig`indisini hisoblovchi dasturni funksiya yordamida yechishni ko`rsak:</p>
+	<img src="images/5.2.png">
+	<h2>Python dasturiga kiritilgan funksiyalar</h2>
+	<h3>Tiplarni o`zgartiruvchi funksiyalar</h3>
+	<p>bool(x)- rostlikka tekshirishni standart usulidan foydalanuvchi bool tipiga o`zgartirish. Agar x yolg`on bo`lsa yoki tushirib qoldirilgan bo`lsa, False qiymatini qaytaradi, aksincha esa True qaytaradi.</p>
+	<p>bytearray([manba, [kodlash[xatolar]]])- bytearray ga o`zgartirish. Bytearray- 0<=x<256 diapazondagi butun sonlarni o`zgarmas ketma-ketligi. Konstruktor argumentlari bytearray() ga mos ko`rinishga ega bo`ladi.< p>
+	<p>complex([real],[image])- kompleks songa o`zgartirish.</p>
+	<p>dict(object)- lug`atga o`zg artirish.</p>
+	<p>float([x])-haqiqiy songa o`zgartirish. Agar argument ko`rsatilmagan bo`lsa, 0.0 qaytaradi.</p>
+	<p>frozenset([ketma-ketlik])</p>
+	<p>int([object],[asosiy sanoq sistemasi])- butun sonni berilgan sanoq sistemasidan o`nlik sanoq sistemasiga o`tkazish.</p>
+	<p>list([object])-ro`yxat tuzadi.</p>
+	<p>memoryview(object)- memoryview obyektini tuzadi.</p>
+	<p>object()-hamma obyektlarga asos bo`lgan bosh obyektni qaytaradi.</p>
+	<p>range([start=0], stop,[step=1])- step qadamli start dan stop gacha bo`lgan arifmetik progressiya.</p>
+	<p>set(object)-to`plamni yaratadi.</p>
+	<p>slice([start=0], stop, [step=1])-step qadamga ega startdan stopgachaga bo`lgan kesma obekti.</p>
+	<p>tuple(obj)- kortejga o`zgartiradi</p>
+	<h3>Qo`shimcha funksiyalar</h3>
+	<p>abs(x)- absolyut raqamni (sonni modulini) qaytaradi.</p>
+	<p>all(ketmaketlik)- agarda hamma elementlar haqiqiy bo`lsa (yoki ketmaketlik bo`sh bo`lsa) True ni qaytaradi.</p>
+	<p>any(ketmaketlik)-agarda elementlardan hech bo`lmaganda bittasi haqiqiy bo`lsa True ni qaytaradi. Bo`sh ketmaketlik uchun False qaytaradi.</p>
+	<p>ascii(object)- repr ga o`xshab obyekt ko`rinishiga mos qatorni ekranga xuddi shunday qaytaradi.</p>
+	<img src="images/5.3.png">
+	<p>bin(x)- butun sonni ikkilik sanoq sistemasiga o`tkazadi</p>
+	<p>chr(x)-  x ning Unicode ga mos belgini qaytaradi.</p>
+	<p>classmethod(x)- sinf metodi ko`rsatgan funksiyani taqdim etadi.</p>
+	<p>compile( source, filename, mode, flags=0, don’t_inherit=False)- ketmaketlik eval yoki exec funksiyalari bilan bajariladigan dastur kodiga komplyatsiya qilinishi. Qator karetkani qaytaruvchi belgilar yoki nolga teng baytlarga ega bo`lmasligi kerak.</p>
+	<p>delattr(object, name)- “name” nomidan atributni qaytaradi.</p>
+	<p>dir([object])- obyekt nomlarining ro`yxati, agar obyekt ko`rsatilmagan bo`lsa, local maydondagi nomlar ro`yxati.</p>
+	<p>divmod(a,b) – a ni b ga bo`lganda hosil bo`lgan bo`linmaning butun va qoldiq qismi.</p>
+	<p>enumerate(iterable, start=0)- nomer va unga mos ketmaketlik a’zosidan tarkib topgan kortejni har bir o`tishda taqdim etuvchi iteratorni qaytaradi.</p>
+	<p>eval(expression, globals=None, locals=None)- dastur kodi qatorini bajaradi.</p>
+	<p>filter(function, iterable)- function yordamida rost qiymatni elementlarga qaytaruvchi iteratorni qaytaradi.</p>
+	<p>format(value [,format_spec])- formatlash (qatorni formatlash).</p>
+	<p>getattr(object, name,[default])- obyekt atributini yoki default.globals()-global nomlar lugatini chiqaradi.</p>
+	<p>hasattr(object, name)- “name” nomidagi atribut obyektga ega ekanligini tekshiradi.</p>
+	<p>hash(x)- ko`rsatilgan obyektning heshini qaytaradi.</p>
+	<p>help([object])- dasturni yordam qismiga kiritilgan ma’lumotnoma tizimini chaqirish.</p>
+	<p>hex(x)- butun sonni o`n oltilik sanoq sistemasiga o`tkazish.</p>
+	<p>id(object)-obyekt manzilini qaytaradi.</p>
+	<p>input([promt])- foydalanuvchi tomonidan kiritilgan qatorni qaytaradi. Promt- foydalanuvchiga yordam. </p>
+	<p>isinstance(object, ClassInfo)-agarda obyekt classinfo yoki uning sinfosti ekzemplari bo`lsa rost qiymat qaytaradi. Agarda ekzemplar berilgan tipdagi obyekt bo`lmasa, funksiya yolg`on qiymat qaytaradi.</p>
+	<p>issubclass(sinf, ClassInfo)-agarda sinf ClasssInfo sinfostisi bo`lsa rost qiymat qaytaradi. Sinf o`z-o`ziga sinfosti bo`ladi.</p>
+	<p>iter(x)- iterator obyektini qaytaradi.</p>
+	<p>len(x)-ko`rsatilgan obektni elementlar sonini qaytaradi.</p>
+	<p>locals()-lokal nomlar lug`ati.</p>
+	<p>map(function, iterator)-ketmaketlikning har bir elementiga function funksiyasini qo`llash orqali yaratiladigan iterator.</p>
+	<p>max(iter,[args…]*[, key])-ketma-ketlikning maksimal elementi.</p>
+	<p>min(iter,[args…]*[, key])-ketmaketlikning minimal elementi.</p>
+	<p>next(x)-iteratorning keyingi elementini qaytaradi.</p>
+	<p>oct(x)- butun sonni sakkizlik sanoq sistemasiga o`tkazadi.</p>
+	<p>open(file, mode=’r’, buffering=None, encoding=None, errors=None, newline=None, closefd=True)- faylni ochadi va kerakli oqimni qaytaradi.</p>
+	<p>ord(x)- belgi kodi.</p>
+	<p>pow(x, y[,r])-(x**y)%r.</p>
+	<p>reversed(object)-yoyilgan obyektning iteratori.</p>
+	<p>print([object,…],*,sep=” ”, end=’/n’, file=sys.stdout)-  ma’lumotlarni ekranga chop etish.</p>
+	<p>round(X,[N])- verguldan keyin N- belgilargacha to`g`rilash.</p>
+	<p>setattr(obekt, nom, qiymat)- obyekt atributini belgilash.</p>
+	<p>sorted(iterable[, key][, reverse])- tartiblangan ro`yxat.</p>
+	<p>staticmethod(function)- funksiya uchun statistik metod.</p>
+	<p>sum(iter, start=0)-ketmaketlik elementlarini yig`indisi.</p>
+	<p>type(object)- obyekt tipini qaytaradi.</p>
+	<p>type(name, bases, dict)- name sinfidagi yangi ekzemplarni qaytaradi.</p>
+	<p>vars([object])- obyekt atributlarining ro`yxati. Jimlik holatida- local nomlar lug`ati.</p>
+		</=x<256></p></div>
+	</div>
+	<div class="compiler">
+		<iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+	</div>
+	<div id="footer">
+		<h2 align="center">BITIRUV MALAKAVIY ISHI</h2>
+		<h3 align="center">&copy SAMARQAND-2023</h3>
+	</div>
+</body>
+</html>

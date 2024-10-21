@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Python
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div class="div_img">
+			<img src="images/python-logo.png">
+		</div>
+		<div class="menu">
+			<a href="index.html">Bosh sahifa</a>
+			<a href="mavzu1.html">Mavzular</a>
+			<a href="masalalar1.html">Masalalar</a>
+			<a href="yuklamalar.html">Yuklamalar</a>
+			<a href="muallif.html">Muallif</a>
+		</div>
+	</div>
+	<div id="content">
+		<div class="menu">
+			<div><a href="mavzu1.html">1 - Mavzu</a></div>
+			<div><a href="mavzu2.html">2 - Mavzu</a></div>
+			<div><a href="mavzu3.html">3 - Mavzu</a></div>
+			<div><a href="mavzu4.html">4 - Mavzu</a></div>
+			<div><a href="mavzu5.html">5 - Mavzu</a></div>
+			<div><a href="mavzu6.html">6 - Mavzu</a></div>
+			<div><a href="mavzu7.html">7 - Mavzu</a></div>
+			<div><a href="mavzu8.html">8 - Mavzu</a></div>
+			<div><a href="mavzu9.html">9 - Mavzu</a></div>
+			<div><a href="mavzu10.html">10 - Mavzu</a></div>
+			<div><a href="mavzu11.html">11 - Mavzu</a></div>
+			<div><a href="mavzu12.html">12 - Mavzu</a></div>
+		</div>
+		<div class="sahifa">
+			<h1>Operatorlar va ifodalar</h1>
+	<p>Dasturdagi ko'p amallar (mantiqiy qatorlar) ifodalardan tashkil topgan. Bunga oddiy misol: 2 + 3. Ifodani operatorlar va operandlarga ajratish mumkin. Operator – bu biror amalni bajaruvchi va simvol yordamida yoki zaxiraga olingan so'zlar yordamida ifodalanadigan funksional. Operatorlar qiymatlar ustida biror amalni bajaradi va bu qiymatlar operandlar deyiladi. Bizning xolatda 2 va 3 – bu operandlar.</p>
+	<table border="2" width="500">
+		<tr>
+			<td>
+				Operator
+			</td>
+			<td>
+				Nomlanishi
+			</td>
+			<td>
+				Ta'rifi
+			</td>
+			<td>
+				Misol
+			</td>
+		</tr>
+		<tr>
+			<td>
+				+
+			</td>
+			<td>
+				Qo'shish
+			</td>
+			<td>
+				Ikkita ob'yektning yig'indisini hisoblaydi
+			</td>
+			<td>
+				3 + 5 ifoda 8 ni beradi; 
+				'a' + 'b' ifoda 'ab' ni beradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				-
+			</td>
+			<td>
+				Ayirish
+			</td>
+			<td>
+				Ikkata sonning farqini beradi. Agar birinchi operand mavjud bo'lmasa, uning qiymati 0 ga teng deb olib ketiladi.
+			</td>
+			<td>
+				-5.2 manfiy qiymat beradi, 
+				50 – 24 ning qiymati esa 26 ga teng.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				*
+			</td>
+			<td>
+				Ko'paytirish
+			</td>
+			<td>
+				Ikkita son ko'paytmasini beradi yoki satrni ko'rsatilgan miqdorda takrorlangan yangi satrni qaytaradi.
+			</td>
+			<td>
+				2 * 3 ifoda 6 beradi. 
+				'xa' * 3 ifoda 'xaxaxa' ni qaytaradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				**
+			</td>
+			<td>
+				Darajaga ko'tarish 
+			</td>
+			<td>
+				x sonini y darajaga ko'tarilganda hosil bo'lgan qiymatni qaytaradi.
+			</td>
+			<td>
+				3**4 ifoda 81 ni qaytaradi (ya'ni 3*3*3*3)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				/
+			</td>
+			<td>
+				Bo'lish
+			</td>
+			<td>
+				'x' ni 'y' ga bo'lganda hosil bo'lgan bo'linmani qaytaradi.
+			</td><td>
+				4 / 3 ifoda 1.3333333333333333 ni beradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				//
+			</td>
+			<td>
+				Qoldiqsiz bo'lish
+			</td>
+			<td>
+				Bo'lishdan hosil bo'lgan bo'linmaning qoldiqsiz butun qismini qaytaradi.
+			</td><td>
+				4 // 3 ifoda 1 ni qaytaradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				%
+			</td>
+			<td>
+				Qoldiqlik bo'lish
+			</td>
+			<td>
+				Bo'lishdan hosil bo'lgan qoldiqni qaytaradi.
+			</td><td>
+				8 % 3 ifoda 2 ni beradi. -25.5 % 2.25 ifoda 1.5 ni beradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<<
+			</td>
+			<td>
+				Chapga surish
+			</td>
+			<td>
+				Bit sonni chapga ko'rsatilgan miqdorda suradi.
+			</td><td>
+				2 << 2 ifoda 8 ni beradi. Ikkilik sanoq tizimida 2 soni 10 ko'rinishiga ega bo'ladi. Chapga 2 bit miqdorida surish 1000 beradi, bu o'nlik sanoq tizimida 8 ni beradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				>>
+			</td>
+			<td>
+				O'ngga surish
+			</td>
+			<td>
+				Bit sonni o'ngga ko'rsatilgan miqdorda suradi.
+			</td><td>
+				11 >> 1 ifoda 5 ni beradi. Ikkilik sanoq sistemasida 11 soni 1011 ko'rinishida bo'ladi uni 1 bit o'ngga sursak 101 hosil bo'ladi va bu onlik sanoq tizimida 5 ni beradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				&
+			</td>
+			<td>
+				'Va' bit operatori(Побитовое И)
+			</td>
+			<td>
+				Sonlar ustida 'va' bit operatsiyasini bajaradi.
+			</td><td>
+				5 & 3 ifoda 1 ni beradi
+			</td>
+		</tr>
+		<tr>
+			<td>
+				|
+			</td>
+			<td>
+				'Yoki' bit operatori (Побитовое ИЛИ)
+			</td>
+			<td>
+				Sonlar ustida 'yoki' bit operatsiyasini bajaradi.
+			</td><td>
+				5 | 3 ifoda 7 ni beradi
+			</td>
+		</tr>
+		<tr>
+			<td>
+				^
+			</td>
+			<td>
+			  'shartlik yoki' bit operatori(Побитовое ИСКЛЮЧИТЕЛЬНО ИЛИ)
+			</td>
+			<td>
+			Sonlar ustida 'shartlik yoki' bit operatsiyasini bajaradi.
+			</td><td>
+				5 ^ 3 ifoda 6 ni beradi
+			</td>
+		</tr>
+		<tr>
+			<td>
+				~
+			</td>
+			<td>
+			  'Emas' bit operatori Побитовое НЕ
+			</td>
+			<td>
+				'Emas' bit operatsiyasi x soni uchun -(x+1) ga to'g'ri keladi.
+			</td><td>
+				~5 ifoda 6 ni beradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<
+			</td>
+			<td>
+			  Kichik
+			</td>
+			<td>
+				X qiymat y qiymatdan kichikligini aniqlaydi. Hamma qiyoslash operatorlari True yoki False qaytaradi. Bu so'zlardagi katta xarflarga e'tibor bering.
+			</td><td>
+				5 < 3 False qaytaradi 3 < 5 ifoda esa True qaytaradi. Ixtiyoriy bir – biri bilan bog'langan ifodalar tuzish ham mumkin: 3 < 5 < 7 ifoda True ni qaytaradi
+			</td>
+		</tr>
+		<tr>
+			<td>
+				>
+			</td>
+			<td>
+			  Katta
+			</td>
+			<td>
+				X qiymat y qiymatdan katta ekanligini aniqlaydi.
+			</td><td>
+				5 > 3 ifoda True ni qaytaradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<= < td>
+			<td>
+			  Kichik yoki teng
+			</td>
+			<td>
+				x qiymat y qiymatdan kichik yoki teng ekanligini aniqlaydi.
+			</td><td>
+				x = 3; y = 6; x <= y ifoda True qaytaradi. < td>
+		</=></td></=></td></tr>
+		<tr>
+			<td>
+				>=
+			</td>
+			<td>
+			  Katta yoki teng
+			</td>
+			<td>
+				x qiymat y qiymatdan katta yoki teng ekanligini anqlaydi.
+			</td><td>
+				x = 4; y = 3; x >= 3 ifoda True qaytaradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				==
+			</td>
+			<td>
+			  Teng
+			</td>
+			<td>
+				Ob'yektlarning tengligini tekshiradi
+			</td><td>
+				x = 2; y = 2; x == y ifoda True qaytaradi. x = 'str'; y = 'stR'; x == y ifoda False qaytaradi. x = 'str'; y = 'str'; x == y ifoda True qaytaradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				!=
+			</td>
+			<td>
+			  Teng emas
+			</td>
+			<td>
+				Ob'yektlar teng emasligi to'g'riligini tekshiradi.
+			</td><td>
+				x = 2; y = 3; x != y ifoda True qaytaradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Not
+			</td>
+			<td>
+			  Mantiqiy 'emas'(Логическое НЕ)
+			</td>
+			<td>
+				Agar x True bo'lsa, operator False qaytaradi. Agar x False bo'lsa operator True qaytaradi.
+			</td><td>
+				x = True; not x ifoda False qaytaradi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				And
+			</td>
+			<td>
+			  Mantiqiy 'va' (Логическое И)
+			</td>
+			<td>
+				x and y ifoda False qaytaradi agar x False bo'lsa. Aks holda y ning qiymatini qaytaradi.
+			</td><td>
+				x = False; y = True; x and y ifoda False qaytaradi, sababi x равно False. Bu holda Python y ning qiymatini tekshirib o'tirmaydi sababi 'and' operatoridan chapdagi ifoda qismi False ga teng va butun ifoda qiymati boshqa oparatorlar qiymatlariga bog'liqsiz ham False bo'ladi.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Or
+			</td>
+			<td>
+			  Mantiqiy 'yoki'
+			</td>
+			<td>
+				x or y agar x True ga teng bo'lsa True qaytaradi aks xolda y ning qiymatini qaytaradi.
+			</td><td>
+				x = True; y = False; x or y ifoda True qaytaradi.
+			</td>
+		</tr>
+	</table>
+	<h2>Matematik amallar va o'zlashtirishlarni qisqacha yozish</h2>
+	<p> Ko'pincha bir o'zgaruvchi ustida biror matematik amal bajarib, natijani o'sha o'zgaruvchining o'ziga o'zlashtirish zaruriyati tug'iladi. Bu holda amallarni qisqacha yozish mumkin. Siz a = 2; a = a * 3 ni quyidagicha yozishingiz mumkin: a = 2; a *= 3
+	</p>
+	<h2>Amallar bajarilish ketma-ketligi</h2>
+	<p>2 + 3 * 4 ifodada qaysi amal birinchi bajariladi: qo'shishmi yoki ko'paytirish?
+	Matematika fanida ko'paytirish birinchi bajarilishi ko'rsatilgan. Demak, ko'paytirish operatori qo'shish operatoriga qaraganda katta prioritetga(muhimlik darajasiga) ega. Quyidagi jadvalda Python operatorlari prioriteti ko'rsatilgan. Bunda yuqoridan pastga qarab Python operatorlari prioriteti oshib boradi. Bu shuni anglatadiki, ixtiyoriy ifodada Python oldin eng quyidagi operatorlarni hisoblaydi va keyin esa yuqoridagilarini. Amaliyotda esa amallarni qavslar bilan aniq ajratish tavsiya etiladi. Bu dastur kodini oson o'qishga yordam beradi.</p>
+	<table border="2" width="500px">
+		<tr>
+			<th>
+				Operator
+			</th>
+			<th>
+				Izoh
+			</th>
+		</tr>
+		<tr>
+			<td>
+				Lambda
+			</td>
+			<td>
+				lambda ifoda
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Or
+			</td>
+			<td>
+				Mantiqiy 'yoki'
+			</td>
+		</tr>
+		<tr>
+			<td>
+				And
+			</td>
+			<td>
+				Mantiqiy 'va'
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Not x
+			</td>
+			<td>
+				Mantiqiy 'emas'
+			</td>
+		</tr>
+		<tr>
+			<td>
+				in, not in
+			</td>
+			<td>
+				Tegishlilikni tekshirish 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				is, is not
+			</td>
+			<td>
+				Bir xillikni tekshirish
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<, <=",">, >=, !=, ==
+			</,></td>
+			<td>
+				Taqqoslash
+			</td>
+		</tr>
+		<tr>
+			<td>
+				|
+			</td>
+			<td>
+				'yoki' bit operatori
+			</td>
+		</tr>
+		<tr>
+			<td>
+				^
+			</td>
+			<td>
+				'shartlik yoki' bit operatori
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				&
+			</td>
+			<td>
+				'va' bit operatori
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				<<,>>
+			</,></td>
+			<td>
+				Surilishlar
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				+, –
+			</td>
+			<td>
+				Qo'shish va ayirish
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				*, /, //, %
+			</td>
+			<td>
+				Ko'paytirish, bo'lish, qoldiqsiz bo'lish va qoldiqlik bo'lish
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				+x, -x
+			</td>
+			<td>
+				Musbat va manfiy
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				~x
+			</td>
+			<td>
+				'emas' bit operatori
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				**
+			</td>
+			<td>
+				Darajaga ko'tarish
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				x.attribute
+			</td>
+			<td>
+				Atributga link
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				x[index]
+			</td>
+			<td>
+				Indeks bo'yicha murojat
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				x[index1:index2]
+			</td>
+			<td>
+				Kesib olish
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				f(argumentlar …)
+			</td>
+			<td>
+				Funksiyani chaqirish
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				(ifoda, …)
+			</td>
+			<td>
+				Kortej (Связка или кортеж)
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				[ifoda, …]
+			</td>
+			<td>
+				Ro'yxat (Список)
+			</td>
+		</tr>
+		<tr> 	
+			<td>
+				{kalit:qiymat, …}
+			</td>
+			<td>
+				Lug'at (Словарь)
+			</td>
+		</tr>
+	</table>
+	<p>Bu jadvalda bir xil prioritetga ega bo'lgan operatorlar bir qatorda joylashgan. Misol uchun '+' va '-'.</p>
+    <h2>Hisoblash tartibini o'zgartirish</h2>
+    <p>Ifodalarni o'qishni osonlashtirish uchun qavslarni ishlatish mumkin. Misol uchun, 2 + (3 * 4) ni tushunish oson operatorlar prioriteni bilish lozim bo'lgan 2 + 3 * 4 ifodadan ko'ra. Qavslarni o'ylab ishlatish kerak. Ortiqcha qavslarni ishlatishdan saqlaning. Misol uchun: (2 + (3 * 4)).</p>
+    <p>Qavslarni ishlatishni ya'na bir afzalligi hisoblash tartibini o'zgartirish imkonini beradi. Misol uchun, qo'shish amalini ko'paytirish amalidan birinchi bajarish kerak bo'lsa, quyidagicha yozish mumkin: (2 + 3) * 4. </p>
+		</div>
+	</div>
+	<div class="compiler">
+		<iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+	</div>
+	<div id="footer">
+		<h2 align="center">BITIRUV MALAKAVIY ISHI</h2>
+		<h3 align="center">&copy SAMARQAND-2023</h3>
+	</div>
+</body>
+</html>

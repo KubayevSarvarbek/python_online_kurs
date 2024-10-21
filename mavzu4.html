@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Python
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div class="div_img">
+			<img src="images/python-logo.png">
+		</div>
+		<div class="menu">
+			<a href="index.html">Bosh sahifa</a>
+			<a href="mavzu1.html">Mavzular</a>
+			<a href="masalalar1.html">Masalalar</a>
+			<a href="yuklamalar.html">Yuklamalar</a>
+			<a href="muallif.html">Muallif</a>
+		</div>
+	</div>
+	<div id="content">
+		<div class="menu">
+			<div><a href="mavzu1.html">1 - Mavzu</a></div>
+			<div><a href="mavzu2.html">2 - Mavzu</a></div>
+			<div><a href="mavzu3.html">3 - Mavzu</a></div>
+			<div><a href="mavzu4.html">4 - Mavzu</a></div>
+			<div><a href="mavzu5.html">5 - Mavzu</a></div>
+			<div><a href="mavzu6.html">6 - Mavzu</a></div>
+			<div><a href="mavzu7.html">7 - Mavzu</a></div>
+			<div><a href="mavzu8.html">8 - Mavzu</a></div>
+			<div><a href="mavzu9.html">9 - Mavzu</a></div>
+			<div><a href="mavzu10.html">10 - Mavzu</a></div>
+			<div><a href="mavzu11.html">11 - Mavzu</a></div>
+			<div><a href="mavzu12.html">12 - Mavzu</a></div>
+		</div>
+		<div class="sahifa">
+			<h1>Operatorlar</h1>
+	<h2>If- shart operatori</h2>
+	<p>If operatori shartni tekshirish uchun ishlatiladi. Pythonda shart operatorini bir necha xil ko`rinishi mavjud:</p>
+	<ul>
+		<li>if (mantiqiy ifoda):- shart operatorining bu ko`rinishi mantiqiy ifoda rost bo`lgan holda qandaydir kod bajarilishi uchun ishlatiladi.</li>
+		<li>if (mantiqiy ifoda):…else-shart operatorining bu ko`rinishida mantiqiy ifoda rost bo`lsa, birinchi ifodalar bloki bajariladi(bu blok “if-blok” deb nomlanadi), aks holda keyingi ifodalar bloki bajariladi(bu blok “else-blok” deb nomlanadi).</li>
+		<li>if (mantiqiy ifoda):…elif(mantiqiy ifoda):…else- shart operatorining bu ko`rinishida oldingi shart yolg`on bo`lganda keyingi shart tekshiriladi. Bu ifoda o`zida ikkita bir-biriga bog`liq bo`lgan if else-if else ifodani bir ifodada if elif else saqlaydi. Bu dasturni o`qishni osonlashtiradi</li>
+	</ul>
+	<p>If operatoriga misol: </p>
+	<img src="images/3.1.png">
+	<p>Kiritilgan sonning juft toqligini anilash</p>
+	<img src="images/4.3.png">
+	<p>Kiritilgan sonni musbat manfiyligini aniqlash:</p>
+	<img src="images/4.4.png">
+	<p>If opreratorini pythonda nafaqat shart operatori sifatida balki tanlash opretori (switch) sifatida ham qo`llash mumkin. Masalan: A va B haqiqiy sonlarni hamda arifmetik amal belgisini kiritgandan keyin ifodani hisoblash dasturi: </p>
+	<img src="images/4.5.png">
+	<p>Yil oylarining raqami kiritilgach oy necha kundan iborat ekanligini topish dasturi:</p>
+	<img src="images/4.6.png">
+	<h2>Pythonda rostlikka tekshirish</h2>
+	<ul>
+		<li>Har qanday nolga teng bo`lmagan son yoki bo`sh bo`lmagan obyekt-rost</li>
+		<li>Nol yoki bo`sh obyekt-yolg`on</li>
+		<li>Taqqoslash amallari True yoki False qiymat qaytaradi</li>
+		<li>Mantiqiy operatorlar and va or rost yoki yolg`on obyekt-operandni qaytadi</li>
+	</ul>
+	<p>Mantiqiy operatorlar:<br> X and Y
+	- Rost, agar x va y ham rost bo`lsa<br>
+	X or Y
+	- Rost, agar x yoki y dan bittasi rost bo’lsa<br>
+	Not X
+	- Rost, agar x yolg`on bo`lsa
+	</p>
+	<h2>While sikl operatori</h2>
+	<p>While operatori quyidagi umumiy ko`rinishga ega: While (shart) {
+	sikl_tanasi}
+	</p>
+	<p>While sikl operatorining ishlash tartibi<br>
+	Agar (shart) rost (true) qiymatga ega bo`lsa, sikl_tanasi bajariladi. Qachonki shart yolg`on (false) qiymatga teng bo`lsa sikl tugatiladi.<br>
+	Agar (shart) true qiymatga ega bo`lmasa sikl tanasi biror marta ham bajarilmaydi.
+	</p>
+	<p>Toq sonlarni ekranga chiqarish</p>
+	<img src="images/4.7.png">
+	<h2>For operatori</h2>
+	<p>Python dasturlash tilida for operatori C va Paskal dasturlash tillarida qo`llanishidan farq qiladi. Python da for operatori biroz murakkabroq, lekin while sikliga qaraganda ancha tezroq bajariladi. For…in operatori obyektlar ketma-ketligida iteratsiyani amalga oshiradi, ya’ni bu sikl har qanday iteratsiya qilinadigan obyekt bo`ylab o`tadi(satr yoki ro`yxat bo`ylab) va har bir o`tish vaqtida sikl tanasini bajaradi.</p>
+	<p>For operatoriga misol:</p>
+	<img src="images/4.8.png">
+	<h2>Range() va xrange funksiyasi</h2>
+	<p>Agar dasturda sonlarni ketma-ket chiqarish kerak bo`lsa range() funksiyasidan foydalaniladi. U arifmetik progressiyaga asoslangan ro`yxat tuzadi. <br> >>> range(10)<br>
+	[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+	</p>
+	<p>
+		Range(10) funksiyasi 10 ta elementdan iborat bo`lgan ro`yxat tuzadi. Bunda yuqori chegara sifatida 10 beriladi, lekin u yaratilgan ro`yxat ketma-ketligiga kirmaydi. Shuningdek funksiyaga quyi chegara va qadamni ham berish mumkin.<br>
+		>>> range(5,10)<br>
+		[5, 6, 7, 8, 9]<br>
+		>>> range(0,10,3)<br>
+		[0, 3, 6, 9]<br>
+		>>> range(-10,-100,-30)<br>
+		[-10, -40, -70]<br>
+	</p>
+	<p>
+		Ketma-ketlik indekslarini tanlash uchun range() va len() funksiyalarini birgalikda ishlating
+	</p>
+	<img src="images/4.9.png">
+	<p>Katta diapazondagi raqamlardan foydalanib ro`yxatni yaratish range() funksiyasi o`zini oqlamaydi yoki ba’zi hollarda xotira yetishmaydi.</p>
+	<img src="images/4.10.png">
+	<p>Shunday hollarda Python da xrange() funksiyasidan foydalaniladi.</p>
+	<h2>Break operatori</h2>
+	<p>Break operatori agar siklning bajarilish sharti hali False qiymat olmagan bo'lsa ham yoki ketma-ketlik elementlari hali tugamagan bo'lsa ham siklni to'xtatish, ya'ni buyruqlar bajarilishini to'xtatish uchun xizmat qiladi. Shuni aytib o'tish kerakki, for yoki while sikllarini break operatori bilan to'xtatilsa, ularga tegishli bo'lgan else bloki bajarilmaydi.</p>
+	<img src="images/4.11.png">
+	<h2>Continue operatori</h2>
+	<p>Continue operatori joriy blokdagi o'zidan keyingi qolgan barcha buyruqlarni bajarmay siklning keyingi iteratsiyasidan davom ettirish uchun ishlatiladi.</p>
+	<img src="images/4.12.png">
+		</div>
+	</div>
+	<div class="compiler">
+		<iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+	</div>
+	<div id="footer">
+		<h2 align="center">BITIRUV MALAKAVIY ISHI</h2>
+		<h3 align="center">&copy SAMARQAND-2023</h3>
+	</div>
+</body>
+</html>

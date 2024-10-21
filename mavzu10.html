@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Python
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div class="div_img">
+			<img src="images/python-logo.png">
+		</div>
+		<div class="menu">
+			<a href="index.html">Bosh sahifa</a>
+			<a href="mavzu1.html">Mavzular</a>
+			<a href="masalalar1.html">Masalalar</a>
+			<a href="yuklamalar.html">Yuklamalar</a>
+			<a href="muallif.html">Muallif</a>
+		</div>
+	</div>
+	<div id="content">
+		<div class="menu">
+			<div><a href="mavzu1.html">1 - Mavzu</a></div>
+			<div><a href="mavzu2.html">2 - Mavzu</a></div>
+			<div><a href="mavzu3.html">3 - Mavzu</a></div>
+			<div><a href="mavzu4.html">4 - Mavzu</a></div>
+			<div><a href="mavzu5.html">5 - Mavzu</a></div>
+			<div><a href="mavzu6.html">6 - Mavzu</a></div>
+			<div><a href="mavzu7.html">7 - Mavzu</a></div>
+			<div><a href="mavzu8.html">8 - Mavzu</a></div>
+			<div><a href="mavzu9.html">9 - Mavzu</a></div>
+			<div><a href="mavzu10.html">10 - Mavzu</a></div>
+			<div><a href="mavzu11.html">11 - Mavzu</a></div>
+			<div><a href="mavzu12.html">12 - Mavzu</a></div>
+		</div>
+		<div class="sahifa">
+			<h2>Kortejlar(tuple)</h2>
+	<p>
+		Kortejlar bir nechta ob’yektlarni birgalikda saqlashga xizmat qiladi. Ularni ro’yxatlarga o’xshatish mumkin. Lekin ular ro’yxatlar kabi boy funksionallikka ega emas. Ularning asosiy jihati qatorlarga o’xshab o’zgarmasliklaridir. Kortej- elementlar orasini vergul bilan ajratish orqali hosil qilinadi. Kortejga ma’no jihatdan o`zgarmas ro`yxat deb ta’rif berdik. Shu o`rinda savol tug`iladi. Ro`yxat bo`lsa kortej nimaga kerak:
+	</p>
+	<ul>
+		<li>
+			Turli holatlardan himoyalanish. Bu degani kortej o`zgartirishlardan himoyalangan bo`ladi, rejali (bu yomon)  va tasodifiy (bu yaxshi) o`zgarishlardan xalos bo`ladi.
+		</li>
+		<li>
+			Kichik hajm. So`zlar bilan ifodalamasdan<br>
+			<img src="images/10.1.png">
+		</li>
+		<li>
+			Kortejdan lug`at kaliti sifatida foydalanish mumkin:<br>
+			<img src="images/10.2.png">
+		</li>
+	</ul>
+	<p>
+		Kortej afzalliklari haqida bilib oldik. Endi kortej bilan qanday ishlashni ko`ramiz. Bu xuddi ro`yxatlar bilan ishlashga o`xshaydi. Bo`sh kortejni yaratamiz:
+	</p>
+	<img src="images/10.3.png">
+	<p>
+		Bir elementli kortejni yaratamiz:
+	</p>
+	<img src="images/10.4.png">
+	<p>
+		Stop. Satr paydo bo`ldi. Bizga esa kortej kerak. Qanday qilib kortejga ega bo`lamiz:
+	</p>
+	<img src="images/10.5.png">
+	<p>
+		Ura! Ishladi! Hamma gap vergulda. Qavuslar bu yerda hech nimani anglatmaydi. Kortejni yana quyidagicha yatish mumkin.
+	</p>
+	<img src="images/10.6.png">
+	<p>
+		Lekin qavus qo`yish lozim, ba’zi bir holatlar borki qavuslar juda kerak. Tuple() funksiyasi yordamida iteratsiyalangan obyektdan kortej yaratish mumkin:
+	</p>
+	<img src="images/10.7.png">
+	<p>
+		Kortejning elmentlariga ham ro`yxatlardagi kabi indeks bo`yicha murojat qilish mumkin (masalan: element nechanchi indeksdaligini bilish uchun). Bunda ham indekslash 0 (nol) dan boshlanadi ya’ni 6 ta elementdan iborat kortejning indeksi 0..5 gacha bo`ladi. Kortej indeksi esa [] operatori orasiga beriladi. Agar bizga kortejning elementilarini teskaridan chiqarish kerak bo`lsa uning indeksini manfiy (masalan: kortej[-5]) beramiz. Quyidagi misolda shularni ko`rib chiqamiz.
+	</p>
+	<img src="images/10.8.png">
+	<h2>Kortej kesmasi</h2>
+	<p>
+		Kortejning biror qismini bo`lagini ya’ni kesmasini ajratish uchun(masalan: 2 elementidan to 5-chi elementigacha)  uning indekslari orasiga-ikki nuqta(:) qo’yamiz.
+	</p>
+	<img src="images/10.9.png">
+	<h2>Kortejni o`zgartirish</h2>
+	<p>
+		Kortejlar ustida amal bajarayotganda “+” operatori orqali ikkita kortejni qo`shishimiz mumkin, va bu konkatenatsiya deb ham ataladi.
+		Kortej elementlarini takrorlash uchun “*” operatoridan foydalanamiz. “+” va “*” operatorlarini kortejlarda qo`llaganimizdan so`ng yangi ko`rinishdagi kortejga ega bo`lamiz
+	</p>
+	<img src="images/10.10.png">
+	<h2>
+		Kortejning funksiya va metodlari
+	</h2>
+	<p>
+		Count(x)-kortejdagi x elementi sonini qaytaradi.<br>
+		Index(x)-kortejdagi x elementining indeksini qaytaradi.<br>
+		Any()-agar kortej elementi mavjud bo`lsa True qiymat qaytaradi, aks holda (kortej bo`sh bo`lsa) False qiymat qaytaradi.<br>
+		Max()-kortejning maksimal elementini qaytaradi.<br>
+		Min()- kortejning minimal elementini qaytaradi.<br>
+		Len()-kortejning uzunligini qaytaradi.<br>
+		Sorted()-kortej elementlaridan iborat yangi tartiblangan ro`yxatni qaytaradi.<br>
+		Sum()-kortej elementlari yig`indisini qaytaradi.
+	</p>
+	<img src="images/10.11.png">
+	<p>
+		Elementni kortejga tegishli ekanligini tekshirish uchun in kalit so`zidan foydalaniladi
+	</p>
+	<img src="images/10.12.png">
+	</div>
+	<div class="compiler">
+		<iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+	</div>
+	<div id="footer">
+		<h2 align="center">BITIRUV MALAKAVIY ISHI</h2>
+		<h3 align="center">&copy SAMARQAND-2023</h3>
+	</div>
+</div></body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Python
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div class="div_img">
+			<img src="images/python-logo.png">
+		</div>
+		<div class="menu">
+			<a href="index.html">Bosh sahifa</a>
+			<a href="mavzu1.html">Mavzular</a>
+			<a href="masalalar1.html">Masalalar</a>
+			<a href="yuklamalar.html">Yuklamalar</a>
+			<a href="muallif.html">Muallif</a>
+		</div>
+	</div>
+	<div id="content">
+		<div class="menu">
+			<div><a href="mavzu1.html">1 - Mavzu</a></div>
+			<div><a href="mavzu2.html">2 - Mavzu</a></div>
+			<div><a href="mavzu3.html">3 - Mavzu</a></div>
+			<div><a href="mavzu4.html">4 - Mavzu</a></div>
+			<div><a href="mavzu5.html">5 - Mavzu</a></div>
+			<div><a href="mavzu6.html">6 - Mavzu</a></div>
+			<div><a href="mavzu7.html">7 - Mavzu</a></div>
+			<div><a href="mavzu8.html">8 - Mavzu</a></div>
+			<div><a href="mavzu9.html">9 - Mavzu</a></div>
+			<div><a href="mavzu10.html">10 - Mavzu</a></div>
+			<div><a href="mavzu11.html">11 - Mavzu</a></div>
+			<div><a href="mavzu12.html">12 - Mavzu</a></div>
+		</div>
+		<div class="sahifa">
+			<h1>Python tili sintaksisi, asosiy operatorlari.</h1>
+	<p>Python tili sintaksisi o`zi kabi sodda</p>
+	<ul>
+		<li>Satr oxiri instruksiyaning  oxiri hisoblanadi (nuqta vergul shart emas)</li>
+		<li>Har bir qator boshidagi  bo`sh joy(отступ) muhim ahamiyatga ega. Kiritilgan amallar bo`sh joylarning kattaligiga qarab bloklarga birlashadi. Bo`sh joy istalgancha bo`lishi mumkin asosiysi bitta kiritilgan blok chegarasida bo`sh joy bir xil bo`lishi kerak. Noto`g`ri qo`yilgan bo`sh joylar xatolik yuz berishiga olib kelishi mumkin. Bitta probel bilan bo`sh joy hosil qilish yaxshi qaror emas uni o`rniga to`rtta probel yoki Tab belgisini ishlatish kerak.</li>
+		<li>Pythonga kiritilgan amallar  bir xil shablonda yoziladi. Bunda asosiy amal ikki nuqta bilan tugatiladi va uning orqasidan kiritilgan blok kodi ham joylashadi. Odatda, asosiy amalning ostidagi satr bo`sh joy bilan ajratiladi.</li>
+	</ul>
+	<h2>Bir nechta maxsus holatlar</h2>
+	<p>Bazan bir nechta amalni bitta satrga nuqtali vergul bilan ajratgan holda yozish mumkin</p>
+	<pre>
+		a = 1; b = 2; print(a, b)
+	</pre>
+	<p>
+		Buni ko`p ham qo`llamang! Yaxshisi bunday qilmang, o`qishga noqulay. Bitta amalni bir nechta satrga yozish mumkin faqat aylana, to`rtburchak va figurali qavslardan foydanish kerak.
+	</p>
+	<pre>
+	if (a == 1 and b == 2 and
+	c == 3 and d == 4): 
+	print('spam'*3)
+	</pre>
+	<h3>Kalit so`zlar</h3>
+	<ul>
+		<li>False – yolg`on.</li>
+		<li>True - rost</li>
+		<li>None - “bo`sh” obyekt</li>
+		<li>and – mantiqiy VA amali.</li>
+		<li>with / as – konteks menejeri.</li>
+		<li>break –tsikldan chiqish.</li>
+		<li>class – metod va atributlarda iborat.</li>
+		<li>continue – tsikldan keyingi iteratsiyaga o`tish.</li>
+		<li>def – funksiyani aniqlash.</li>
+		<li>del – obyektni yo`qotish.</li>
+		<li>elif – aks holda, agar.</li>
+		<li>else – for/else yoki if/elsega qarang</li>
+		<li>for – for sikli.</li>
+		<li>from – moduldan bir nechta funksiyani import qilish.</li>
+		<li>if - agar.</li>
+		<li>import – moduldan import.</li>
+		<li>is –xotirani bitta joyida 2 ta obyektni jo`natsa bo`ladimi.</li>
+		<li>lambda –yashirin funksiyani aniqlash.</li>
+		<li>not –mantiqiy inkor amali.</li>
+		<li>or –mantiqiy Yoki amali.</li>
+		<li>while – while tsikli.</li>
+	</ul>
+	<h3>Komentariy</h3>
+	<p>Kommentariy. Kommentariy # simvolidan keyin yoziladi va dastur kodini o'qiyotgan dasturchi uchun eslatma bo'lib xizmat qiladi. Misol uchun: print('salom dunyo!') # print — bu funksiya yoki: # print — bu funksiyaprint('salom dunyo! ')
+	Komentariy dastur kodini o'qiyotganlar uchun foydali bo'ladi va dastur nima qilishini oson tushunishga yordam beradi. Unga yechimdagi muhim joylarni, muhim bo'lgan qismlarni yozish mumkin.
+	</p>
+	<h2>O`zgaruvchilar</h2>
+	<p>Biror ma'lumotni saqlash va uning ustida turli amallarni bajarish uchun bizga o'zgaruvchilar yordam beradi. O'zgaruvchining qiymati, o'z nomi bilan aytib turibdiki, o'zgarishi mumkin. Unda xohlagan qiymatni saqlash mumkin. O'zgaruvchilar kompyuter xotirasidagi joy bo'lib, u yerda siz biror ma'lumotni saqlaysiz. O'zgaruvchining konstantadan farqi, o'zgaruvchiga dastur ishlashi davomida (run time) murojaat qilib, uning qiymatini o'zgartira olamiz. Konstantaga esa oldindan ma'lum bir qiymat beriladi va bu qiymatni o'zgartirib bo'lmaydi. O'zgaruvchilarni nomlashda quyidagi qoidalarga amal qilish kerak:</p>
+	<ul>
+		<li>O'zgaruvchining birinchi belgisi alifbo harfi (ASCII simvollari katta va kichik registrda ) yoki “_” (ostki chiziq) simvoli bo'lishi mumkin.</li>
+		<li>O'zgaruvchilarning qolgan qismi harflardan (ASCII simvollari katta va kichik registrda), “_" (ostki chiziq) simvoli va raqamlardan(0-9) tashkil topishi mumkin.</li>
+		<li>O'zgaruvchilar nomlashda katta va kichik registrlar farqlanadi. Masalan, myname va myName – bular boshqa-boshqa o'zgaruvchi hisoblanadi.</li>
+		<li>O'zgaruvchilarni to'g'ri nomlashga misollar: i, _my_name, name_23, a1b2_c3 </li>
+		<li>O'zgaruvchilarni noto'g'ri nomlashga misollar: 2things, ' ', my-name, >a1b2_c3 va “o'zgaruvchi qo'shtirnoqda"</li>
+	</ul>
+	<p>O`zgaruvchi va konstantalarni qo`llanishiga misol:</p>
+	<pre>
+	i = 5
+	print(i)
+	i = i + 1
+	print(i)
+	s = "'Bu ko'p qatorlik satr.
+	Bu uning ikkinchi qatori."'
+	print(s)
+	</pre>
+	<p>Yuqoridagi misolda dastlab biz 5 konstanta qiymatini '=' operatori yordamida i o'zgaruvchiga o'zlashtirib olamiz.
+	i = 5
+	so'ng i o'zgaruvchi qiymatini print funksiyasi orqali ekranga chop etamiz.
+	print(i)
+	i o'zgaruvchining qiymatiga 1 qo'shamiz va o'zgaruvchining o'ziga saqlaymiz. So'ng i o'zgaruvchining qiymatini chop etamiz.
+	i = i + 1
+	print(i)
+	Yuqoridagi kabi satr konstanta qiymatini s o'zgaruvchiga biriktiramiz va shundan so'ng uni chop etamiz.
+	s = "'Bu ko'p qatorlik satr.
+	Bu uning ikkinchi qatori."'
+	print(s)
+	Eslatma: O'zgaruvchilar oddiy qiymat biriktirish bilan ishlatiladi. Hech qanday oldindan e'lon qilib qo'yish talab etilmaydi.
+	</p>
+		</div>
+	</div>
+	<div class="compiler">
+		<iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+	</div>
+	<div id="footer">
+		<h2 align="center">BITIRUV MALAKAVIY ISHI</h2>
+		<h3 align="center">&copy SAMARQAND-2023</h3>
+	</div>
+</body>
+</html>
